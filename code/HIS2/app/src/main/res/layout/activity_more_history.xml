@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/more_history_lv"
+        android:layout_width="match_parent"
+        android:layout_height="2000dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:divider="@null"/>
+    
+    <TextView
+        android:id="@+id/history_no_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="暂无数据"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
+    <ImageButton
+        android:id="@+id/history_iv_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/back_bg"
+        android:src="@drawable/baseline_arrow_back_ios_new_24" />
+
+    <ImageButton
+        android:id="@+id/main_imgbtn1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/history_iv_back"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="openNote"
+        android:background="@drawable/note_bg"
+        android:src="@drawable/outline_sticky_note_2_24" />
+
+    <ImageButton
+        android:id="@+id/main_imgbtn2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/main_imgbtn1"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:onClick="openHome"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/person_bg"
+        android:src="@drawable/outline_person_24" />
+</RelativeLayout>

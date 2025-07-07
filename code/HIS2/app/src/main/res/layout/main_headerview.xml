@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/main_header_tv_yangli"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="公历2023年6月23日 星期六(阳历)"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_header_tv_day"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="23"
+        android:textColor="@color/fireRed"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_header_tv_week"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="星期六"
+        android:textColor="@color/fireRed"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/main_header_tv_nongli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="农历***********"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/main_header_tv_baiji"
+            android:layout_width="match_parent"
+            android:text="彭祖百忌:"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/main_header_tv_wuxing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="五行:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/main_header_tv_chongsha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="冲煞:"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/fireRed" />
+
+        <TextView
+            android:id="@+id/main_header_tv_jishen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="吉神趋益:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/main_header_tv_xiongshen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="凶神趋忌:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/fireRed" />
+
+        <TextView
+            android:id="@+id/main_header_tv_yi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="宜:"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/main_header_tv_ji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="忌:"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>
